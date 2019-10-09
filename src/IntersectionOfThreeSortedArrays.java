@@ -7,12 +7,12 @@ public class IntersectionOfThreeSortedArrays {
         int[] arr2 = {1,2,5,6};
         int[] arr3 = {1,4,5,8};
         List<Integer> list = arraysIntersection(arr1, arr2, arr3);
-        System.out.println(Arrays.toString(list.toArray()));
+        System.out.print(Arrays.toString(list.toArray()));
     }
 
     public static List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
-        List<Integer> result = new ArrayList<Integer>();
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        List<Integer> result = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         insert(arr1, map);
         insert(arr2, map);
