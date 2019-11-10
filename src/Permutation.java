@@ -15,14 +15,7 @@ public class Permutation {
         permute("ABC");
     }
 
-    public static void indent(int n) {
-        for (int i = 0; i < n; i++) {
-            System.out.print("    ");
-        }
-    }
-
     public static void permuteHepler(String s, String chosen) {
-//        indent(chosen.length());
         System.out.print("\npermuteHelper(\"" + s + "\", \"" +  chosen+ "\")");
 
         //  if/else
