@@ -16,10 +16,3 @@ public class BinaryTreeInorder94 {
         driver(node.right, list);
     }
 }
-
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-}
